@@ -1,0 +1,27 @@
+
+
+main {
+  background-color: #eee;
+  height:100vh;
+  display: grid;
+  place-items:center;
+  text-align: center;
+}
+
+input{
+  width:200px;
+  line-height:1.4rem;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+}
+.card{
+  background-color:white;
+  font-weight:300;
+  height:200px;
+}
+
+

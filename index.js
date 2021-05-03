@@ -10,7 +10,7 @@ console.log('Now listening on port 8080');
 const endpoint = "entries"
 const language_code = "en-us"
 
-console.log('new branch')
+console.log('new branch')  
 
 var headers = {
   "app_id": "46b7f185",
